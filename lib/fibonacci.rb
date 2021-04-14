@@ -20,6 +20,3 @@ class Fibonacci
         fib_numbers << fib_numbers[-1] + fib_numbers[-2]
     end
 end
-
-fib = Fibonacci.new()
-puts fib.fibs_rec(5000)
